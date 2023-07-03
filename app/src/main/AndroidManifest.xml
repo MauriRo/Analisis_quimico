@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.analisis_quimico_2">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Analisis_Quimico_2"
+        tools:targetApi="31">
+        <activity
+            android:name=".AguaFormularioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AguasCarrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjemploActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EjemploActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormularioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Analisis_seis_Activity6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Analisis_cinco_Activity5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Analisis_cuatro_Activity4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Analisis_tres_Activity3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Analisis_dos_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Analasis_uno_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AliActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainBeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainbeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity23"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu_principal"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Analisis_Quimico_2.NoActionBar" />
+        <activity
+            android:name=".OlvideContra3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registrarse2"
+            android:exported="false"
+            android:label="@string/title_activity_registrarse2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Analisis_Quimico_2" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

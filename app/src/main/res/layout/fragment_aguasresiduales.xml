@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AguasResiduales.AguasResidualesFragment"
+    android:background="@drawable/nuevo3_background">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Subir Imagen"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/txtImage"
+        android:layout_width="327dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/bot_background"
+        android:text="Selecionar Imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtImage"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bot_background"
+        android:text="Subir Imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectImage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textParametros1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Agregar Parametros"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:clickable="true"
+        android:onClick="irAActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUploadImage" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:src="@drawable/carro1"
+        app:layout_constraintBottom_toBottomOf="@+id/textParametros1"
+        app:layout_constraintStart_toEndOf="@+id/textParametros1"
+        app:layout_constraintTop_toTopOf="@+id/textParametros1" />
+
+    <TextView
+        android:id="@+id/textFormulario1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:onClick="irAActivity"
+        android:text="Rellenar Formulario"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textParametros1"
+        app:layout_constraintStart_toStartOf="@+id/textParametros1"
+        app:layout_constraintTop_toBottomOf="@+id/textParametros1" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:src="@drawable/formulario"
+        app:layout_constraintBottom_toBottomOf="@+id/textFormulario1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textFormulario1"
+        app:layout_constraintTop_toTopOf="@+id/textFormulario1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

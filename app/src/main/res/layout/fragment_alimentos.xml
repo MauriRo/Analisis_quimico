@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alimentos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.alimentos.AlimentosFragment"
+    android:background="@drawable/nuevo3_background">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subir Imagen"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageView
+        android:id="@+id/textImage3"
+        android:layout_width="327dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSelectImage3"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:text="Seleccionar Imagen"
+        android:background="@drawable/bot_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textImage3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnUploadImage3"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:text="Subir Imagen"
+        android:background="@drawable/bot_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectImage3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

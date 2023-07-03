@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AguaFormularioActivity"
+    android:background="@drawable/nuevo3_background">
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Formulario"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNameA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <EditText
+        android:id="@+id/etCityA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ciudad"
+        app:layout_constraintEnd_toEndOf="@+id/etNameA"
+        app:layout_constraintStart_toStartOf="@+id/etNameA"
+        app:layout_constraintTop_toBottomOf="@+id/etNameA" />
+
+    <EditText
+        android:id="@+id/etCalleA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Calle"
+        app:layout_constraintEnd_toEndOf="@+id/etCityA"
+        app:layout_constraintStart_toStartOf="@+id/etCityA"
+        app:layout_constraintTop_toBottomOf="@+id/etCityA" />
+
+    <Button
+        android:id="@+id/btnAddDataA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Enviar"
+        android:background="@drawable/bot_background"
+        app:layout_constraintEnd_toEndOf="@+id/etCalleA"
+        app:layout_constraintStart_toStartOf="@+id/etCalleA"
+        app:layout_constraintTop_toBottomOf="@+id/etCalleA" />
+</androidx.constraintlayout.widget.ConstraintLayout>

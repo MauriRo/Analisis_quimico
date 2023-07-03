@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/josem/AppData/Local/Android/Sdk/platforms/android-33/data/res/layout/simple_list_item_1.xml" value="0.3625" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/drawable/bot_background.xml" value="0.1915" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/drawable/grey_background.xml" value="0.325" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/drawable/nuevo3_background.xml" value="0.325" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/drawable/side_nav_bar.xml" value="0.1915" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/drawable/uno3_background.xml" value="0.1915" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_agua_formulario.xml" value="0.3484375" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_aguas_carr.xml" value="0.3484375" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_analasis_uno.xml" value="0.30978260869565216" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_analisis_cinco5.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_analisis_cuatro4.xml" value="0.3625" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_analisis_dos.xml" value="0.30978260869565216" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_analisis_seis6.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_analisis_tres3.xml" value="0.33" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_bebidas.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_ejemplo.xml" value="0.3625" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_ejemplo2.xml" value="0.3484375" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_formulario.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_menu_principal.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/activity_registrarse2.xml" value="0.3625" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/app_bar_menu_principal.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/content_menu_principal.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_aguasresiduales.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_alimentos.xml" value="0.3484375" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_bebidas.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_home.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_main.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_notifications.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/fragment_ventas.xml" value="0.33" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/layout/nav_header_menu_principal.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/josem/Documents/Analisis_Quimico_2/app/src/main/res/menu/menu_principal.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

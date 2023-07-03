@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.analisis_quimico_2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.analisis_quimico_2.ui.Ventas.VentasFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_ventas" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.analisis_quimico_2.ui.AguasResiduales.AguasResidualesFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_aguasresiduales" />
+
+    <fragment
+        android:id="@+id/nav_Bebidas"
+        android:name="com.example.analisis_quimico_2.ui.bebidas.BebidasFragment"
+        android:label="@string/menu_Bebidas"
+        tools:layout="@layout/fragment_bebidas" />
+    <fragment
+        android:id="@+id/nav_Alimentos"
+        android:name="com.example.analisis_quimico_2.ui.alimentos.AlimentosFragment"
+        android:label="@string/menu_Alimentos"
+        tools:layout="@layout/fragment_alimentos" />
+</navigation>
